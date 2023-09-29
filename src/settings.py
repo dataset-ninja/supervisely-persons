@@ -15,14 +15,14 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Supervisely Persons"
 PROJECT_NAME_FULL: str = "Supervisely Persons"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.Custom(url="https://ecosystem.supervisely.com/projects/persons#License")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.General()]
-CATEGORY: Category = Category.Surveillance()
+CATEGORY: Category = Category.Surveillance(featured=True)
 
 CV_TASKS: List[CVTask] =  [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
@@ -34,7 +34,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://ecosystem.supervisely.com/projects/persons"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 5329292
+PREVIEW_IMAGE_ID: int = 5329352
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/supervisely-persons"
