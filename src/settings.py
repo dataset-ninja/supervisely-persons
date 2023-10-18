@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.Custom(url="https://ecosystem.supervisely.com/projects/persons#License")
+LICENSE: License = License.Custom(source_url="https://ecosystem.supervisely.com/projects/persons#License")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Domain.General()]
 CATEGORY: Category = Category.Surveillance(featured=True)
 
