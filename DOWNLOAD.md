@@ -1,6 +1,6 @@
 Dataset **Supervisely Persons** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzIyODdfU3VwZXJ2aXNlbHkgUGVyc29ucy9zdXBlcnZpc2VseS1wZXJzb25zLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIkN1TTRMNy9Fb1Zva2ROTVhpV3JrYkRMTWlZRGV5T2pQZ0ltM0liWHNZc3c9In0=)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjI4N19TdXBlcnZpc2VseSBQZXJzb25zL3N1cGVydmlzZWx5LXBlcnNvbnMtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiRmlHZVFmMnpjWGQzamN3OENvRlNVYmFQN0E0K0w3ZW5tRVN1c2x6RWEzdz0ifQ==?response-content-disposition=attachment%3B%20filename%3D%22supervisely-persons-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
